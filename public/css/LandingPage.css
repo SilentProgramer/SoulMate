@@ -29,55 +29,37 @@ html,body {
 
 
 
-@media only screen and (min-width:300px)
+@media only screen and (min-width:100px)
 {
+    /*From 100px onwards*/
     .banner{
-        background-image: url("/img/xxxsmall.jpg");
+        background-image: url("/img/xxsmall.jpg");
     }
 }
 
-@media only screen and (min-width:500px){
+@media only screen and (min-width:400px){
+    /*From 400px onwards*/
     .banner{
-        background-image:url("/img/xxsmall.jpg");
+        background-image:url("/img/xsmall.jpg");
     }
 }
     
-@media only screen and (min-width:600px){
-    /*.banner img{
-        content:url("/img/xsmall.jpg");    
-    }*/
+@media only screen and (min-width:450px){
+    /*From 450px onwards*/
     .banner{
-        background-image:url("/img/xsmall.jpg");    
-    }
-}
-
-@media only screen and (min-width:800px){
-    /*.banner img{
-        content:url("/img/small.jpg");
-    }*/
-        .banner{
         background-image:url("/img/small.jpg");    
     }
-
 }
 
-@media only screen and (min-width:1000px){
-    /*.banner img{
-        content:url("/img/medium.jpg");
-    }*/
+@media only screen and (min-width:550px){
+    /*From 550px onwards*/
         .banner{
         background-image:url("/img/medium.jpg");    
     }
-
 }
-
-@media only screen and (min-width:1500px){
-    .banner img{
-        content:url("/img/large.jpg");
-    }
-        /*.banner{
+@media only screen and (min-width:1200px){
+    /*From 1200px onwards*/
+        .banner{
         background-image:url("/img/large.jpg");    
-    }*/
-
+    }
 }
-
