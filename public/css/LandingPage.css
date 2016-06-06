@@ -28,6 +28,26 @@ html,body {
     }*/
 
 
+@media only screen and (min-device-width:100px) and (max-device-width:400px)
+{
+    .banner{
+        background-image: url("/img/xxsmall.jpg");
+    }    
+}
+
+@media only screen and (min-device-width:401px) and (max-device-width:450px)
+{
+    .banner{
+        background-image: url("/img/xsmall.jpg");
+    }    
+}
+
+@media only screen and (min-device-width:451px) and (max-device-width:550px)
+{
+    .banner{
+        background-image: url("/img/small.jpg");
+    }    
+}
 
 @media only screen and (min-width:100px)
 {
