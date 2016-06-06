@@ -28,28 +28,9 @@ html,body {
     }*/
 
 
-@media only screen and (min-device-width:100px) and (max-device-width:400px)
-{
-    .banner{
-        background-image: url("/img/xxsmall.jpg");
-    }    
-}
 
-@media only screen and (min-device-width:401px) and (max-device-width:450px)
-{
-    .banner{
-        background-image: url("/img/xsmall.jpg");
-    }    
-}
 
-@media only screen and (min-device-width:451px) and (max-device-width:550px)
-{
-    .banner{
-        background-image: url("/img/small.jpg");
-    }    
-}
-
-@media only screen and (min-width:100px)
+@media only screen and (min-width:100px) and (orientation:portrait)
 {
     /*From 100px onwards*/
     .banner{
@@ -57,27 +38,51 @@ html,body {
     }
 }
 
-@media only screen and (min-width:400px){
+@media only screen and (min-width:400px) and (orientation:portrait){
     /*From 400px onwards*/
     .banner{
         background-image:url("/img/xsmall.jpg");
     }
 }
     
-@media only screen and (min-width:450px){
+@media only screen and (min-width:1200px) and (orientation:portrait){
+    /*From 1200px onwards*/
+        .banner{
+        background-image:url("/img/small.jpg");    
+    }
+}
+
+
+
+@media only screen and (min-width:100px) and (orientation:landscape)
+{
+    /*From 100px onwards*/
+    .banner{
+        background-image: url("/img/xxsmall.jpg");
+    }
+}
+
+@media only screen and (min-width:400px) and (orientation:landscape){
+    /*From 400px onwards*/
+    .banner{
+        background-image:url("/img/xsmall.jpg");
+    }
+}
+    
+@media only screen and (min-width:450px) and (orientation:landscape){
     /*From 450px onwards*/
     .banner{
         background-image:url("/img/small.jpg");    
     }
 }
 
-@media only screen and (min-width:550px){
+@media only screen and (min-width:550px) and (orientation:landscape){
     /*From 550px onwards*/
         .banner{
         background-image:url("/img/medium.jpg");    
     }
 }
-@media only screen and (min-width:1200px){
+@media only screen and (min-width:1200px) and (orientation:landscape){
     /*From 1200px onwards*/
         .banner{
         background-image:url("/img/large.jpg");    
