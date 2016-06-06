@@ -1,4 +1,4 @@
-﻿html,body {
+html,body {
     /*height:100%;
     margin:0;
     padding:0;*/
@@ -27,7 +27,22 @@
         height: inherit;
     }*/
 
-@media only screen and (min-width:350px){
+
+
+@media only screen and (min-width:300px)
+{
+    .banner{
+        background-image: url("/img/xxxsmall.jpg");
+    }
+}
+
+@media only screen and (min-width:500px){
+    .banner{
+        background-image:url("/img/xxsmall.jpg");
+    }
+}
+    
+@media only screen and (min-width:600px){
     /*.banner img{
         content:url("/img/xsmall.jpg");    
     }*/
@@ -36,7 +51,7 @@
     }
 }
 
-@media only screen and (min-width:500px){
+@media only screen and (min-width:800px){
     /*.banner img{
         content:url("/img/small.jpg");
     }*/
@@ -46,7 +61,7 @@
 
 }
 
-@media only screen and (min-width:800px){
+@media only screen and (min-width:1000px){
     /*.banner img{
         content:url("/img/medium.jpg");
     }*/
@@ -56,7 +71,7 @@
 
 }
 
-@media only screen and (min-width:1000px){
+@media only screen and (min-width:1500px){
     .banner img{
         content:url("/img/large.jpg");
     }
