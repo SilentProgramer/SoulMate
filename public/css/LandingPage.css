@@ -1,16 +1,4 @@
-html,body {
-    /*height:100%;
-    margin:0;
-    padding:0;*/
-}
-
-
-/*.banner{
-    overflow:hidden;
-    height:100vh;
-    width:100vw;    
-}*/
-
+/* The main image */
 .banner{
     width:100%;
     height:100%;
@@ -22,60 +10,50 @@ html,body {
     top:0;
 }
 
-    /*.banner img {
-        width: inherit;
-        height: inherit;
-    }*/
 
+/*The navigation bar */
+.soulmate-navbar{
+    opacity: 0.8;
+}
 
-
-
-@media only screen and (min-width:100px) and (orientation:portrait)
-{
+/*    For mobile devices in portrait mode*/
+@media only screen and (min-width:100px) and (orientation:portrait){
     /*From 100px onwards*/
     .banner{
         background-image: url("/img/xxsmall.jpg");
     }
 }
-
 @media only screen and (min-width:400px) and (orientation:portrait){
     /*From 400px onwards*/
     .banner{
         background-image:url("/img/xsmall.jpg");
     }
 }
-    
 @media only screen and (min-width:1200px) and (orientation:portrait){
     /*From 1200px onwards*/
         .banner{
         background-image:url("/img/small.jpg");    
     }
 }
-
-
-
-@media only screen and (min-width:100px) and (orientation:landscape)
-{
+/*    For all devices in landscape mode */
+@media only screen and (min-width:100px) and (orientation:landscape){
     /*From 100px onwards*/
     .banner{
         background-image: url("/img/xxsmall.jpg");
     }
 }
-
 @media only screen and (min-width:400px) and (orientation:landscape){
     /*From 400px onwards*/
     .banner{
         background-image:url("/img/xsmall.jpg");
     }
-}
-    
+}   
 @media only screen and (min-width:450px) and (orientation:landscape){
     /*From 450px onwards*/
     .banner{
         background-image:url("/img/small.jpg");    
     }
 }
-
 @media only screen and (min-width:550px) and (orientation:landscape){
     /*From 550px onwards*/
         .banner{
