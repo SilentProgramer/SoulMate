@@ -49,6 +49,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && concurrently \"npm run tsc:w\" \"node server.js\"",
     "lite": "lite-server",
+    "preinstall": "npm install typings -g",
     "postinstall": "typings install",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
