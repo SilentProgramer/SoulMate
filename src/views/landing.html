@@ -32,17 +32,6 @@
     <script src="scripts/reflect-metadata/Reflect.js"></script>
     <!-- 2. Configure SystemJS -->
     <script>
-      System.config({
-        map:{
-            soulmate:"/components/soulmate"
-        },
-        packages: {        
-            soulmate: {
-            format: 'register',
-            defaultExtension: 'js'
-          }
-        }
-      });
       System.import('soulmate/main')
             .then(null, console.error.bind(console));
     </script>
