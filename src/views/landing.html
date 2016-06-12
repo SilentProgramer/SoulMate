@@ -21,15 +21,20 @@
 
     <!-- inject:js -->
     <!-- endinject -->
-    <script src="scripts/es6/es6-shim.min.js"></script>
-    <script src="scripts/system/system-polyfills.js"></script>
+    
+    <!--
+        The following scripts will be fetched from other parts of the server, but will appear to 
+        reside in lib folder. See server.js for the route configuration
+    -->
+    <script src="lib/es6-shim/es6-shim.min.js"></script>
+    <script src="lib/systemjs/dist/system-polyfills.js"></script>
 
-    <script src="scripts/system/system.src.js"></script>
-    <script src="scripts/rx/Rx.js"></script>
-    <script src="scripts/systemjs.config.js"></script>
-    <script src="scripts/zone/zone.js"></script>
-    <script src="scripts/crypto-js/crypto-js.js"></script>
-    <script src="scripts/reflect-metadata/Reflect.js"></script>
+    <script src="lib/systemjs/dist/system.src.js"></script>
+    <script src="lib/rxjs/bundles/Rx.js"></script>
+    <script src="lib/systemjs.config.js"></script>
+    <script src="lib/zone.js/dist/zone.js"></script>
+    <script src="lib/crypto-js/crypto-js.js"></script>
+    <script src="lib/reflect-metadata/Reflect.js"></script>
     <!-- 2. Configure SystemJS -->
     <script>
       System.import('soulmate/main')

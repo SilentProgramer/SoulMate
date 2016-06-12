@@ -5,16 +5,13 @@
 (function(global) {
   // map tells the System loader where to look for things
   var map = {
-    'soulmate':                        '/components/soulmate', // 'dist',
-    '@angular':                   'scripts/@angular',
-    'angular2-in-memory-web-api': 'scripts/angular2-in-memory-web-api',
-    //'rxjs':                       'scripts/rxjs',
-    //'zone.js':                    'scripts/zone.js',
+    'soulmate':                   '/components/soulmate', 
+    '@angular':                   'lib/@angular',
+    'angular2-in-memory-web-api': 'lib/angular2-in-memory-web-api',
   };
   // packages tells the System loader how to load when no filename and/or no extension
   var packages = {
     'soulmate':                     { format: 'register', defaultExtension: 'js' },
-    //'rxjs':                       { defaultExtension: 'js' },
     'angular2-in-memory-web-api': { main: 'index.js', defaultExtension: 'js' },
   };
   var ngPackageNames = [
