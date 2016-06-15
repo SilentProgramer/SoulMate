@@ -41,6 +41,9 @@ app.use("/lib",express.static(path.join(__dirname,"node_modules/")));
 //stores path to the root directory
 app.use("/lib",express.static(__dirname));
 
+//to load angular components
+//app.use("/templates",express.static(path.join(__dirname,"public/components/")));
+        
 //catch 404 and forward to error handler
 app.use(function(req,res,next){
     var err = new Error('Not Found');
